@@ -1,0 +1,8 @@
+{
+  "nanme": "Meet Up",
+  "short_name": "meet-up",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
