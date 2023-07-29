@@ -100,3 +100,7 @@ An application that lists events and event details within a users city. Uses the
   - **Given** user wants to view upcoming events in each city
   - **When** the user is logged into the app
   - **Then** a chart will display events that are organized in each city
+
+# Serverless Features
+
+Instead of making direct calls from the client-side, I will utilize serverless functions to act as intermediaries. When a user requests to view events, the client-side code can trigger the serverless function, when then makes the appropriate API call to the Google Calendar API. The serverless function can process the response and return the relevant event data back to the client, ensuring better security, reduced API key exposure, and efficient handling of multiple requests without managing dedicated servers.
